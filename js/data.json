@@ -1,0 +1,137 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "faLink",
+            "size": "2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "faBolt",
+            "size": "2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "faBorderStyle",
+            "size": "2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/images/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "image": "/images/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "image": "/images/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "image": "/images/portfolio-img4.jpg"
+        },
+        {
+            "id":5,
+            "image": "/images/portfolio-img5.jpg"
+        },
+        {
+            "id":6,
+            "image": "/images/portfolio-img6.jpg"
+        },
+        {
+            "id":7,
+            "image": "/images/portfolio-img4.jpg"
+        },
+        {
+            "id":8,
+            "image": "/images/portfolio-img8.jpg"
+        }
+    ] ,
+
+ 
+     "info" : [
+        {
+            "id": 1,
+            "title" : "Name",
+            "body" : "Mahmoud Elsayed"
+        },
+        {
+            "id": 2,
+            "title" : "Birthday",
+            "body" : "21/8/1997"
+        },
+        {
+            "id": 3,
+            "title" : "Address",
+            "body" : "Mansoura"
+        },
+        {
+            "id": 4,
+            "title" : "Phone",
+            "body" : "1111 222 3333"
+        },
+        {
+            "id": 5,
+            "title" : "Email",
+            "body" : "abcd@gmail.com"
+        },
+        {
+            "id": 6,
+            "title" : "Website",
+            "body" : "www.abcd.com"
+        }
+    ],
+
+    "skills" : [
+        {
+            "id": 1,
+            "title" : "Bootstrap",
+            "percentage" : "100%"
+        },
+        {
+            "id": 2,
+            "title" : "Css3",
+            "percentage" : "90%"
+        },
+        {
+            "id": 3,
+            "title" : "React",
+            "percentage" : "80%"
+        }
+       
+    ],
+
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "faFacebook",
+            "size" : "lg",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "faTwitter",
+            "size" : "lg",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : " faPinterest ",
+            "size" : "lg",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] 
+}
