@@ -1,0 +1,67 @@
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #000
+}
+
+
+
+ .logo {
+    width: 50%;
+    float: left;
+}
+
+.logoText{
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+
+
+
+.ulList {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    display: inline-block;
+}
+
+.listItem a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+ .listItem a:hover {
+    color: #eb5424;
+}
+
+
+
+@media (max-width : 991px) {
+    .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    .ulList {
+        width: 100%;
+        float:  none;
+        margin: auto;
+        text-align: center;
+        
+    }
+    
+    .listItem {
+        display: inline-block;
+        text-align: center;
+    }
+}

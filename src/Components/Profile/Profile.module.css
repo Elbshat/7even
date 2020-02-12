@@ -1,0 +1,124 @@
+.profile {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
+
+
+
+.profileList {
+    list-style: none;
+    padding: 0;
+}
+
+.profileItem {
+    margin-bottom: 8px
+}
+
+.sp1 {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold
+}
+
+.web {
+    font-weight: normal;
+    color: #eb5424;
+    cursor: pointer;
+}
+
+
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.skillsDesc {
+    font-size: 15px;
+    color: #888;
+    line-height: 1.5;
+    margin-bottom: 20px
+}
+
+.bar {
+    overflow: hidden;
+    padding: 10px 0;
+    margin-bottom: 10px
+}
+
+.title {
+    float: left;
+}
+
+.percentage {
+    float: right;
+    margin-right: 100px
+}
+
+.parent {
+    height: 2px;
+    clear: both;
+    background: #f8f8f8;
+    position: relative;
+    top: 5px
+}
+
+.skill_1 {
+    background: #eb5424;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.skill_2 {
+    background: #eb5424;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+}
+.skill_3 {
+    background: #eb5424;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+}
+
+
+
+.profileTitle,
+.skillsTitle{
+    font-size: 40px; 
+    margin-bottom: 20px
+}
+
+.profileTitle span,
+.skillsTitle span{
+    font-weight: normal;
+    color: #eb5424
+}
+
+
+@media (max-width:768px) {
+    .right , 
+    .left {
+        width: 100%;
+        float: none
+    }
+    .right {
+        margin-bottom: 20px
+    }
+}

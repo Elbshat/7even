@@ -1,0 +1,76 @@
+.home {
+    height: 500px;
+    background: url('/images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.homeInformation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.homeTitle {
+    font-size: 60px;
+    font-weight: bold;
+    color: #5e5e5e;
+}
+
+.homeInfo {
+    font-size: 35px;
+    color: #eb5424;
+    margin-bottom: 20px;
+}
+
+.homeText {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #888;
+    margin-bottom: 20px
+}
+
+.homeText span {
+    color: #000
+}
+
+.homeButton {
+    background: #eb5424;
+    color: #fff;
+    font-size: 18px;
+    width: 150px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.homeButton:hover {
+    background: #fff;
+    color: #eb5424
+}
+
+
+@media (max-width:768px) {
+    .homeTitle {
+        font-size: 40px;
+        color: #fff
+    }
+    
+    .homInfo {
+        font-size: 20px
+    }
+    
+    .homeText {
+        font-size: 15px
+    }
+}
+
+@media (max-width:575px) {
+    .homeTitle {
+        font-size: 30px;
+    }
+}

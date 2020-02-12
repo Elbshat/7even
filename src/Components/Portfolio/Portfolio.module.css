@@ -1,0 +1,102 @@
+.portfolio {
+    background: #f8f8f8;
+    padding-top: 20px; 
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+
+.portfolioTitle {
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.portfolioTitle span {
+    font-weight: normal;
+    color: #eb5424;
+}
+
+.portfolioList {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0
+}
+
+.portfolioItem {
+    display: inline-block;
+    width: 100px;
+    padding: 10px
+}
+
+.portfolioItem_active {
+    background: #eb5424;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    padding: 10px
+}
+
+.imgDiv {
+    width: 25%;
+    float: left;
+    font-size: 0;
+    position: relative;
+    
+}
+
+.imgDiv img {
+    width: 100%
+}
+
+.imgDiv p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(235,84,36 , 0.5);
+    font-size: 15px;
+    opacity: 0;
+    margin: 0;
+}
+
+.imgDiv p span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #eb5424;
+    text-align: center;
+}
+
+.imgDiv:hover p {
+    opacity: 1
+}
+
+
+@media (max-width:575px) {
+    .portfolioItem {
+        display: block;
+        margin: auto
+    }
+    
+    .imgDiv {
+        width: 100%;
+    }
+
+    
+}
+
+@media (min-width:576px) and (max-width : 768px ){
+    .imgDiv {
+        width: 50%;
+    }
+
+    .imgDiv p span {
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,54 @@
+.about {
+    height: 600px;
+    background: url('/images/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.aboutInfo {
+    padding-top: 100px;
+    width: 50%;
+    float: right;
+}
+
+.infoTitle {
+    font-weight: bold;
+    font-size: 50px
+}
+
+.infoTitle span {
+    font-weight: normal;
+    color: #eb5424;
+}
+
+.infoDir {
+    font-size: 40px;
+    color: #eb5424;
+    margin-bottom: 20px
+}
+
+.infoDesc {
+    color: #000;
+    margin-bottom: 0;
+    line-height: 1.8
+}
+
+.infoDesc a {
+    text-decoration: none
+}
+
+@media (max-width:991px) {
+    .about {
+        height: auto
+    }
+    .aboutInfo {
+        width: 100%;
+        padding-top: 10px;
+        float: none
+    }
+    
+    .infoDir {
+        font-size: 30px
+    }
+}
