@@ -1,6 +1,6 @@
 .home {
     height: 500px;
-    background: url('/images/home-bg.jpg');
+    background: url('images/home-bg.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
